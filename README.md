@@ -47,5 +47,10 @@ https://github.com/aintic/RoadBuddy_HackMcWiCS
 <h4>Devpost</h4>
 https://devpost.com/software/roadbuddy-lio7xt
 
+
+<h4> Reference </h4>
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6393761/
+https://tc.canada.ca/en/road-transportation/statistics-data/canadian-motor-vehicle-traffic-collision-statistics-2020
+
 ***
 
