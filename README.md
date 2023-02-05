@@ -2,6 +2,7 @@
 ## Hackathon_McWICS_2023 🙌
 : Hackathon_McWICS is the annual hackathon run by the McGill Women in Computer Science. 
 
+<br>
 
 <h4>[ Duration ]🙋‍</h4>
 - Feb 4, 2023 to Feb 5, 2023 (24 hrs)
