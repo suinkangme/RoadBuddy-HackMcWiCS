@@ -29,7 +29,7 @@ https://github.com/aintic/RoadBuddy_HackMcWiCS
 
 ## 1. RoadBuddy 🚙
 
-Drowsy driving accounts for ~20% road accidents in Canada. Road Buddy is an application that helps prevent drowsy driving accidents. It is for WearOS using Android Studio and Kotlin. <br>
+Drowsy driving accounts for ~20% road accidents in Canada. Road Buddy is an application that helps prevent drowsy driving accidents. It is developed for WearOS using Android Studio and Kotlin. <br>
 
 <img src = "awake.png" width = "300" height = "300" >
 <img src = "sleep.png" width = "300" height = "300" >
