@@ -20,11 +20,6 @@
 | Suin Kang | https://github.com/suinkangme | https://www.linkedin.com/in/suinkang/ |
 
 <br>
-
-<h2>[ Repo ]</h4>
-https://github.com/aintic/RoadBuddy_HackMcWiCS
-
-<br>
 <br>
 
 ## 1. RoadBuddy 🚙
