@@ -19,6 +19,7 @@
 
 
 <h2>[ Repo ]</h4>
+https://github.com/aintic/RoadBuddy_HackMcWiCS
 
 
 <br>
@@ -44,7 +45,7 @@
 - The API must be located and utilized to transmit vibrations and voice alarms, and research into ways to adjust or increase the vibration intensity should be conducted. In addition to addressing drowsy driving, the company is exploring the possibility of using Google Maps API to send vibrations and alarms to drivers when they exceed a certain speed in areas with high accident rates or child protection zones.
 
 <h4>Devpost</h4>
-
+https://devpost.com/software/roadbuddy-lio7xt
 
 ***
 
