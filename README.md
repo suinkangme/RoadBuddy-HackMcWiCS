@@ -55,7 +55,11 @@ https://devpost.com/software/roadbuddy-lio7xt
 
 <h4> Reference </h4>
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6393761/
-https://tc.canada.ca/en/road-transportation/statistics-data/canadian-motor-vehicle-traffic-collision-statistics-2020
-
+https://tc.canada.ca/en/road-transportation/statistics-data/canadian-motor-vehicle-traffic-collision-statistics-2020  
+https://developer.android.com/training/wearables/apps/standalone-apps  
+https://developer.android.com/training/wearables/health-services  
+https://developer.android.com/training/wearables/health-services/synthetic-data  
+https://developer.android.com/reference/android/os/VibrationEffect  
+https://github.com/android/health-samples  
 ***
 
