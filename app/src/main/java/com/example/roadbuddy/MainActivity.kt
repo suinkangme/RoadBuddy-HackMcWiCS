@@ -1,7 +1,8 @@
 package com.example.roadbuddy
 
 import android.Manifest
-import android.content.Context
+import android.media.MediaPlayer
+import android.net.Uri
 import android.os.*
 import android.util.Log
 import android.widget.Switch
@@ -14,6 +15,7 @@ import androidx.lifecycle.lifecycleScope
 import com.example.roadbuddy.databinding.ActivityMainBinding
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.ExperimentalCoroutinesApi
+
 
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
@@ -46,6 +48,7 @@ class MainActivity : AppCompatActivity() {
             getSystemService(VIBRATOR_SERVICE) as Vibrator
         }
 
+        // get permission for accessing body sensors
         permissionLauncher =
             registerForActivityResult(ActivityResultContracts.RequestPermission()) { result ->
                 when (result) {
@@ -64,28 +67,34 @@ class MainActivity : AppCompatActivity() {
                 updateViewVisiblity(it)
             }
         }
+
         lifecycleScope.launchWhenStarted {
             viewModel.heartRateAvailable.collect {
                 binding.statusText.text = getString(R.string.measure_status, it)
             }
         }
+
         lifecycleScope.launchWhenStarted {
             viewModel.heartRateBpm.collect {
                 count++
                 avgHR = ((avgHR*count-1) + currentHR) / count
                 if (driving) {
                     updateViewVisiblity(UiState.Driving)
-                    binding.lastMeasuredValue.text = String.format("%.1f", it);
+                    binding.lastMeasuredValue.text = String.format("%.1f", it)
                     currentHR = it
                     if (currentHR < 62) {
                         binding.sleepAwake.text = "Falling Asleep!"
                         fallingAsleep = true
                         vibrateRepeatedly()
+                        Log.i("Vibration: ", "on")
                     }
                     else {
                         binding.sleepAwake.text = "Awake"
-                        fallingAsleep = false
-                        stopVibrate()
+                        if (fallingAsleep) {
+                            fallingAsleep = false
+                            stopVibrate()
+                            Log.i("Vibration: ", "off")
+                        }
                     }
                 }
                 else {
@@ -132,6 +141,7 @@ class MainActivity : AppCompatActivity() {
             binding.lastMeasuredValue.isVisible = it
             binding.heart.isVisible = it
         }
+
         (uiState is UiState.Driving).let {
             binding.lastMeasuredLabel.isVisible = it
             binding.lastMeasuredValue.isVisible = it

@@ -3,6 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-feature android:name="android.hardware.type.watch" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <!-- For receiving heart rate data and vibration permission -->
     <uses-permission android:name="android.permission.BODY_SENSORS" />

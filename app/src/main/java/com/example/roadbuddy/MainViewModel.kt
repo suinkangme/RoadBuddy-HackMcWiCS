@@ -57,5 +57,5 @@ sealed class UiState {
     object Startup : UiState()
     object HeartRateAvailable : UiState()
     object HeartRateNotAvailable : UiState()
-    object Driving : UiState();
+    object Driving : UiState()
 }
