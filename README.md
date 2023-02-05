@@ -29,6 +29,9 @@ https://github.com/aintic/RoadBuddy_HackMcWiCS
 
 ## 1. RoadBuddy 📝 
 
+<img src = "awake.png">
+<img src = "sleep.png">
+
 <h3>💡Concepts💡</h3>
 - Road buddy is an application that helps prevent drowsy driving accidents. Made using Android Studio, Kotlin and Java, it supports wear os. When set to driving mode when the driver starts driving, the driver is notified of vibration when the heart rate is measured and lowered below a specific heart rate.
 
