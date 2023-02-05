@@ -27,7 +27,7 @@ https://github.com/aintic/RoadBuddy_HackMcWiCS
 <br>
 <br>
 
-## 1. RoadBuddy 
+## 1. RoadBuddy 🚙 <img src="https://img.shields.io/badge/kotlin-3776AB?style=for-the-badge&logo=python&logoColor=white">
 
 <img src = "awake.png" width = "300" height = "300" >
 <img src = "sleep.png" width = "300" height = "300" >
