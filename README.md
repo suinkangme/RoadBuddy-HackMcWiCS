@@ -29,11 +29,13 @@ https://github.com/aintic/RoadBuddy_HackMcWiCS
 
 ## 1. RoadBuddy 🚙
 
+Drowsy driving accounts for ~20% road accidents in Canada. Road Buddy is an application that helps prevent drowsy driving accidents. It is for WearOS using Android Studio and Kotlin. <br>
+
 <img src = "awake.png" width = "300" height = "300" >
 <img src = "sleep.png" width = "300" height = "300" >
 
 <h3>💡Concepts💡</h3>
-- From GM's challenge question, our aim is to achieve one of their vision of "Zero Crashes". Although it may be virtually impossible to completely eliminate all accidents, we concentrate on preventing those that could happen due to drowsy driving which accounts for over 20% of road accidents in Canada. Research shows when people get drowsy, their heart rate is reduced. We developed a WearOS smartwatch app to send vibrations waking the user up when they're falling asleep while driving.
+- We wanted to address one of GM's vision, "Zero Crashes". Although it may be virtually impossible to completely eliminate all accidents, we concentrate on preventing those that could happen due to drowsy driving which accounts for over 20% of road accidents in Canada. Research shows when people get drowsy, their heart rate is reduced. We developed a WearOS smartwatch app to send vibrations waking the user up when they're falling asleep while driving.
 
 <h3>🎯Our solution🎯</h3>
 - We used a Health Services API in Wear OS that could monitor heartbeats. The API measures the current heart rate from a synthetic data provider which we used to calculate the average heart rate. The app sends a vibration to the driver when current heart rate falls below the average.
