@@ -13,12 +13,12 @@
 
 <h2> Contributers </h2>
 
-| NAME | 
-| --- | 
-| Suin Kang | 
-| Hyun Soo Kim | 
-| Sarah Michelle Ang |
-| Sooah Kil |
+| NAME | GitHub | LinkedIn |
+| --- |  --- |  --- | 
+| Alice Nguyen | https://github.com/aintic | https://www.linkedin.com/in/alice-hna-nguyen/ |
+| Hyun Soo Kim | https://github.com/huln24 | https://www.linkedin.com/in/khulan-ulziibat/ |
+| Khulan Ulziibat | https://github.com/suinkangme | https://www.linkedin.com/in/suinkang/ | 
+
 
 <br>
 <br>
