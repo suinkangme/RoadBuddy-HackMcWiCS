@@ -5,13 +5,13 @@
 <br>
 
 <h4>[ Duration ]🙋‍</h4>
-- Feb 4, 2023 to Feb 5, 2023 (2023 Winter, COMP 353 Databases )
+- Feb 4, 2023 to Feb 5, 2023 (24 hrs)
 
 
 <br>
 <br>
 
-<h2> Contributers </h2>
+<h3> Team </h2>
 
 | NAME | GitHub | LinkedIn |
 | --- |  --- |  --- | 
