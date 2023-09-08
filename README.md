@@ -16,8 +16,8 @@
 | NAME | GitHub | LinkedIn |
 | --- |  --- |  --- | 
 | Alice Nguyen | https://github.com/aintic | https://www.linkedin.com/in/alice-hna-nguyen/ |
-| Hyun Soo Kim | https://github.com/huln24 | https://www.linkedin.com/in/khulan-ulziibat/ |
-| Khulan Ulziibat | https://github.com/suinkangme | https://www.linkedin.com/in/suinkang/ | 
+| Khulan Ulziibat  | https://github.com/huln24 | https://www.linkedin.com/in/khulan-ulziibat/ |
+| Suin Kang | https://github.com/suinkangme | https://www.linkedin.com/in/suinkang/ | 
 
 
 <br>
