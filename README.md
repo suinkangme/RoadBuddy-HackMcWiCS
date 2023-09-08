@@ -5,19 +5,20 @@
 <br>
 
 <h4>[ Duration ]🙋‍</h4>
-- Feb 4, 2023 to Feb 5, 2023 (24 hrs)
+- Feb 4, 2023 to Feb 5, 2023 (2023 Winter, COMP 353 Databases )
 
 
 <br>
 <br>
 
-<h2> Team </h2>
+<h2> Contributers </h2>
 
-| NAME | Github | LinkedIn |
-| --- | --- | --- |
-| Alice Nguyen | https://github.com/aintic | https://www.linkedin.com/in/alice-hna-nguyen/ |
-| Khulan Ulziibat | https://github.com/huln24 | https://www.linkedin.com/in/khulan-ulziibat/ |
-| Suin Kang | https://github.com/suinkangme | https://www.linkedin.com/in/suinkang/ |
+| NAME | 
+| --- | 
+| Suin Kang | 
+| Hyun Soo Kim | 
+| Sarah Michelle Ang |
+| Sooah Kil |
 
 <br>
 <br>
